@@ -1,0 +1,42 @@
+:root {
+  --bg: #0a0a0b;
+  --bg-card: #111113;
+  --border: #1f1f23;
+  --text: #fafafa;
+  --text-muted: #71717a;
+  --text-table: #a1a1aa;
+  --accent: #00dbbc;
+  --accent-dim: #00dbbc26;
+  --red: #ef4444;
+  --green: #22c55e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
